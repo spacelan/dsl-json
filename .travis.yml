@@ -9,7 +9,7 @@ before_install:
   - sudo apt-get install --force-yes mono-devel
 
 jdk:
-  - oraclejdk8
+  - openjdk6
 
 script:
   - mvn clean verify
